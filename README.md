@@ -12,21 +12,8 @@ A production-ready pipeline for:
 
    ```bash
    pip install -r requirements.txt
+   ```
 
-
-├── README.md
-├── requirements.txt
-├── src
-│   ├── config
-│   │   └── settings.py
-│   ├── data
-│   │   ├── download_dataset.py
-│   │   └── data.yaml
-│   ├── models
-│   │   ├── train.py
-│   │   └── inference.py
-│   ├── utils
-│   │   ├── logger.py
-│   │   └── video_utils.py
-│   └── main.py
-└── .gitignore
+   ```bash
+   python src/main.py --download-dataset-kaggle --video /Users/drobya/Downloads/index0-2.ts
+   ```
