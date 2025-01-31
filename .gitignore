@@ -1,4 +1,5 @@
 .venv
 datasets/*
 datasets
+trained_models
 trained_models/*
