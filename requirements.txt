@@ -1,0 +1,7 @@
+ultralytics
+moviepy
+opencv-python
+roboflow
+numpy
+loguru
+kaggle

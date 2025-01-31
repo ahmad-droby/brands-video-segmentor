@@ -1,0 +1,4 @@
+train: datasets/logodet_3k/train/images
+val: datasets/logodet_3k/valid/images
+nc: 3000  # number of classes in LogoDet-3K
+names: [ "Brand_1", "Brand_2", ... ]
